@@ -7,7 +7,7 @@ s.starttls()
 sender=u
 receiver='savintom@rediffmail.com'
 msg='hii'
-s.login(sender,p)
+s.login(u,p)
 s.sendmail(sender,receiver,msg)
 print("msg sent succesfully")
 s.quit()
